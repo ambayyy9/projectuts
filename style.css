@@ -1,0 +1,113 @@
+/* bagian body */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/bgpink.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #4b2e2e;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigasi */
+nav {
+    background-color: clear;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(186, 110, 123);
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(209, 125, 183);
+    background-color: rgb(186, 110, 123);
+}
+
+/* Header tetap ditengah */
+header {
+    background-color: rgb(210, 119, 134);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    color: #4b2e2e;
+    margin-top: 15px;
+}
+
+header p {
+    font-style: italic;
+    color: #1a1717;
+}
+
+/* Artikel ditata sebagai kartu */
+article {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(225, 183, 197);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+}
+
+article h2, h1 {
+    color: #cc3366;
+    text-align: center;
+}
+
+/* Paragraf */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5);
+
+}
+
+/* Footer */
+footer {
+    background-color:rgb(186, 110, 123);
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    margin-top: auto;
+    border-top: 2px solid rgb(186, 110, 123);
+}
+
